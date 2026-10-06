@@ -1,52 +1,55 @@
 # Acessibilidade-e-Dislexia-Parte-I-Aula-72
 
-
 ## Sobre o projeto
 
 Página simples de blog com dicas para criar senhas seguras, com foco em uma leitura mais clara e acessível.
 
+## Criar a base do HTML
 
-## criar a base do html "!" pra cliar a estrutura do html 
+Digite `!` no arquivo HTML para criar a estrutura do HTML.
 
+## Código HTML
 
-## codigo: html "O que poderíamos mudar para facilitar a leitura?"
+“O que poderíamos mudar para facilitar a leitura?”
 
+```html
 <main>
-    <article>
-      <h1>Como criar uma senha segura</h1>
+  <article>
+    <h1>Como criar uma senha segura</h1>
 
-      <p>
-        Uma senha segura ajuda a proteger suas contas na internet.
-        Evite usar informações fáceis de adivinhar, como seu nome
-        ou sua data de nascimento.
-      </p>
+    <p>
+      Uma senha segura ajuda a proteger suas contas na internet.
+      Evite usar informações fáceis de adivinhar, como seu nome
+      ou sua data de nascimento.
+    </p>
 
-      <h2>Dicas para criar uma senha</h2>
+    <h2>Dicas para criar uma senha</h2>
 
-      <ul>
-        <li>Use uma senha longa.</li>
-        <li>Misture letras, números e símbolos.</li>
-        <li>Não use a mesma senha em todos os sites.</li>
-      </ul>
+    <ul>
+      <li>Use uma senha longa.</li>
+      <li>Misture letras, números e símbolos.</li>
+      <li>Não use a mesma senha em todos os sites.</li>
+    </ul>
 
-      <p>
-        Se possível, use um gerenciador de senhas para guardar
-        suas senhas com segurança.
-      </p>
-    </article>
-  </main>
+    <p>
+      Se possível, use um gerenciador de senhas para guardar
+      suas senhas com segurança.
+    </p>
+  </article>
+</main>
+```
 
+## Conectar o CSS com o HTML
 
-## conectar o css com o html: "na linha 07 do html" 
+Na linha 07 do HTML:
 
+```html
 <link rel="stylesheet" href="style.css">
+```
 
+## Código de design: `style.css`
 
-## codigo: "design style.css"
-
-
-
-
+```css
 body {
   font-family: Arial, sans-serif;
   font-size: 18px;
@@ -79,35 +82,31 @@ p {
 li {
   margin-bottom: 10px;
 }
+```
 
-
-## [ Como abri o projeto html e css ]
-
-## Como executar o projeto
+## Como abrir o projeto HTML e CSS
 
 1. Abra este repositório no GitHub Codespaces.
-2. No VS Code, abra o terminal em **Terminal → New Terminal**. *Clique em continuar trabalhando no github e selecione a vs mais basica*
+2. No VS Code, abra o terminal em **Terminal → New Terminal**. Clique em **Continuar trabalhando no GitHub** e selecione a configuração mais básica.
 
-![imagem representativa](./assent/captura%20de%20tela%20de%202026-10-06%2008-20-15.png)
+![Imagem representativa](./assets/captura.png)
 
+3. Depois que abrir a nova página, execute o comando:
 
-3. **Depois que abri a nova página** Execute o comando:
-
-   
+   ```bash
    python3 -m http.server 8000
+   ```
 
+## Explicação do programa
 
-## [ Explicação  do  Programa ]
+1. Organizar com HTML: “Usei título, subtítulo, parágrafos e uma lista para separar as ideias.”
 
-1-Organizar com HTML: “Usei título, subtítulo, parágrafos e uma lista para separar as ideias.”
+2. Escolher uma fonte legível: “Usei Arial, uma fonte sem serifa e comum nos computadores.”
 
-2-Escolher uma fonte legível: “Usei Arial, uma fonte sem serifa e comum nos computadores.”
+3. Aumentar o tamanho do texto: “Deixei o texto com 18px para ficar mais confortável de ler.”
 
-3-Aumentar o tamanho do texto: “Deixei o texto com 18px para ficar mais confortável de ler.”
+4. Ajustar o espaço entre linhas: “O `line-height: 1.7` evita que as linhas fiquem muito juntas.”
 
-4-Ajustar o espaço entre linhas: “O line-height: 1.7 evita que as linhas fiquem muito juntas.”
+5. Limitar a largura: “O `max-width` evita que cada linha fique comprida demais.”
 
-5-Limitar a largura: “O max-width evita que cada linha fique comprida demais.”
-
-6-Comparar antes e depois: peça à turma para dizer o que ficou mais fácil de encontrar e ler.
-
+6. Comparar antes e depois: peça à turma para dizer o que ficou mais fácil de encontrar e ler.
