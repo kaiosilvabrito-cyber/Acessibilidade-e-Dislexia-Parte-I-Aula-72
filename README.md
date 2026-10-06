@@ -1,7 +1,15 @@
 # Acessibilidade-e-Dislexia-Parte-I-Aula-72
 
 
-codigo: html "O que poderíamos mudar para facilitar a leitura?"
+## Sobre o projeto
+
+Página simples de blog com dicas para criar senhas seguras, com foco em uma leitura mais clara e acessível.
+
+
+## criar a base do html "!" pra cliar a estrutura do html 
+
+
+## codigo: html "O que poderíamos mudar para facilitar a leitura?"
 
 <main>
     <article>
@@ -29,12 +37,12 @@ codigo: html "O que poderíamos mudar para facilitar a leitura?"
   </main>
 
 
-conectar o css com o html: "na linha 07 do html" 
+## conectar o css com o html: "na linha 07 do html" 
 
 <link rel="stylesheet" href="style.css">
 
 
-codigo: "design style.css"
+## codigo: "design style.css"
 
 
 
@@ -73,7 +81,23 @@ li {
 }
 
 
-[ Explicação  do  Programa ]
+## [ Como abri o projeto html e css ]
+
+## Como executar o projeto
+
+1. Abra este repositório no GitHub Codespaces.
+2. No VS Code, abra o terminal em **Terminal → New Terminal**. *Clique em continuar trabalhando no github e selecione a vs mais basica*
+
+![imagem representativa](./assent/captura%20de%20tela%20de%202026-10-06%2008-20-15.png)
+
+
+3. **Depois que abri a nova página** Execute o comando:
+
+   
+   python3 -m http.server 8000
+
+
+## [ Explicação  do  Programa ]
 
 1-Organizar com HTML: “Usei título, subtítulo, parágrafos e uma lista para separar as ideias.”
 
