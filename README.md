@@ -47,7 +47,32 @@ Na linha 07 do HTML:
 <link rel="stylesheet" href="style.css">
 ```
 
+### Explicação resumida de todas as propriedades do código CSS:
+
+
+• font-family: Arial, sans-serif; -> Define o tipo da letra (Arial ou similar).
+
+• font-size: 18px; -> Define o tamanho da letra (18 pixels).
+
+• line-height: 1.7; e 1.3; -> Define o espaçamento entre as linhas do texto.
+
+• color: #222; -> Define a cor do texto (cinza-escuro).
+
+• background-color: #f4f6f8; e white; -> Define a cor do fundo (cinza-claro ou branco).
+
+• max-width: 680px; -> Define a largura máxima do bloco de conteúdo.
+
+• margin: 40px auto; -> Cria espaço fora e centraliza o bloco na tela.
+
+• padding: 24px; e 28px; -> Cria um espaço interno para o texto não colar nas bordas.
+
+• border-radius: 8px; -> Deixa os cantos do bloco arredondados.
+
+• margin-bottom: 18px; e 10px; -> Cria um espaço na parte de baixo para separar os parágrafos e itens.
+
+
 ## Código de design: `style.css`
+
 
 ```css
 body {
